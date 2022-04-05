@@ -3,7 +3,7 @@ rock papper scissor
 
 1.user input (r,p,s) ,when input not valid create an exception
 2.system random input generation (r,p,s)
-3.compare user input and system input and criterias
+3.compare user input and system input and criteria
 r win when s comes
 p win when r comes
 s win when p comes
@@ -16,7 +16,7 @@ if same -then tie
 '''
 import random
 import re
-print("Hey welcone to rock papper scissor game...Have fun.Lets start")
+print("Hey welcome to rock paper scissor game...Have fun.Lets start")
 
 attempt=0
 random_score=0
@@ -51,17 +51,17 @@ while attempt<=5:
       user_score=user_score+1
     
     else:
-      print("oppenent won")
+      print("opponent won")
       random_score=random_score+1
 
     attempt=attempt+1
 
 print("Game over")   
 if user_score>random_score:
-  print("congrats!,what a game.You Won!.your score {user_score} : oppenent score {random_score}"\
+  print("congrats!,what a game.You Won!.your score {user_score} : opponent score {random_score}"\
   .format (user_score=user_score,random_score=random_score))
 else:
-  print("its not your day! better luck next time.your score {user_score} : oppenent score {random_score}"\
+  print("its not your day! better luck next time.your score {user_score} : opponent score {random_score}"\
   .format (user_score=user_score,random_score=random_score))
 
 
