@@ -1,0 +1,2 @@
+this is  a sample doccument to check count of words in a file.
+Most frequent words are selected in this file.we can find out words which is more frrequent.
